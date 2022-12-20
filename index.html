@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Love Calculator</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'><link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div id="wrapper">
+    
+<div class="container card" id="initial-prompt">
+    <h1>Calculate Your Love</h1>
+    <p id="name1-label">Your name.</p>
+<input type="text" id="name1">
+<p id="name2-label">Your partner's name.</p>
+<input type="text" id="name2">
+    <p id="warning">You must fill in both names.</p>
+    <p class="align-right"><button id="calculate">Calculate &nbsp;&nbsp;<i class="fa fa-heart" aria-hidden="true"></i></button></p>
+</div>
+    <div class="container" id="calculating">
+        <div id="loading" class="material-spinner"></div>
+        <p id="div-msg">&nbsp;</p>
+    </div>
+    <div class="container card" id="results">
+        <h1>Your results!</h1>
+        <p id="love-results">&nbsp;</p>
+        <p>Don't like what you see? The future isn't set in stone, it is written in the stars! Just like the stars that drift through the night sky, you too can change the path of your future. If you believe hard enough, anything is possible. Check back later to see if you've improved your odds.</p>
+        <p class="align-right"><button id="try-again">Try Again</button></p>
+    </div>
+</div>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script><script  src="script.js"></script>
+
+</body>
+</html>
