@@ -1,8 +1,10 @@
 var divination = [
-    "Mengubungi dukun terdekat",
-    "Membaca garis tanganmu",
+    "Konsultasi ke dukun terdekat",
+    "Membaca garis tangan mu",
     "Menumbalkan ayam kate",
-    "Bertanya pada mba jamrong",
+    "Ketik Reg (spasi) ramal",
+    "Membaca buku primbon",
+    "ira ketek teketek"
 ];
 
 function rndMsg() {
@@ -75,11 +77,11 @@ $(document).ready(function() {
                             setTimeout(function() {
                                 $("#love-results").html(
                                     name1 +
-                                        " and " +
+                                        " dan  " +
                                         name2 +
-                                        " have a <strong>" +
+                                        " memiliki <strong>" +
                                         love +
-                                        "%</strong> compatibility rating as of now."
+                                        "%</strong> kemungkinan berjodoh"
                                 );
                                 $("#calculating").fadeOut(300, function() {
                                     $("#results").fadeIn(300, function() {
